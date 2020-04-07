@@ -1,0 +1,2214 @@
+{
+  "contractName": "Rolable",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "renounceMeFromConsumer",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "isManufacturer",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "amIRetailer",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "amIRegulator",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "assignMeAsManufacturer",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "isRegulator",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "renounceMeFromDistributor",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "isRetailer",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "amIDesigner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "renounceMeFromRetailer",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "isConsumer",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "renounceMeFromRegulator",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "isDistributor",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "amIConsumer",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "renounceMeFromManufacturer",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "assignMeAsDesigner",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "isDesigner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "addRegulator",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "assignMeAsDistributor",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "assignMeAsConsumer",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "amIDistributor",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "amIManufacturer",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "renounceMeFromDesigner",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "assignMeAsRetailer",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "RetailerAdded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "RetailerRemoved",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "RegulatorAdded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "RegulatorRemoved",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "DistributorAdded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "DistributorRemoved",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "DesignerAdded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "DesignerRemoved",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "ManufacturerAdded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "ManufacturerRemoved",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "ConsumerAdded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "ConsumerRemoved",
+      "type": "event"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "whoAmI",
+      "outputs": [
+        {
+          "name": "consumer",
+          "type": "bool"
+        },
+        {
+          "name": "retailer",
+          "type": "bool"
+        },
+        {
+          "name": "distributor",
+          "type": "bool"
+        },
+        {
+          "name": "manufacturer",
+          "type": "bool"
+        },
+        {
+          "name": "regulator",
+          "type": "bool"
+        },
+        {
+          "name": "designer",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"renounceMeFromConsumer\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isManufacturer\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"amIRetailer\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"amIRegulator\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"assignMeAsManufacturer\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isRegulator\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceMeFromDistributor\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isRetailer\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"amIDesigner\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceMeFromRetailer\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isConsumer\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceMeFromRegulator\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isDistributor\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"amIConsumer\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceMeFromManufacturer\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"assignMeAsDesigner\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isDesigner\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addRegulator\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"assignMeAsDistributor\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"assignMeAsConsumer\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"amIDistributor\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"whoAmI\",\"outputs\":[{\"name\":\"consumer\",\"type\":\"bool\"},{\"name\":\"retailer\",\"type\":\"bool\"},{\"name\":\"distributor\",\"type\":\"bool\"},{\"name\":\"manufacturer\",\"type\":\"bool\"},{\"name\":\"regulator\",\"type\":\"bool\"},{\"name\":\"designer\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"amIManufacturer\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceMeFromDesigner\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"assignMeAsRetailer\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"RetailerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"RetailerRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"RegulatorAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"RegulatorRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"DistributorAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"DistributorRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"DesignerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"DesignerRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"ManufacturerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"ManufacturerRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"ConsumerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"ConsumerRemoved\",\"type\":\"event\"}],\"devdoc\":{\"author\":\"Khalid F.Sh\",\"details\":\"contract for adopting all roles in access control\",\"methods\":{\"addRegulator(address)\":{\"params\":{\"account\":\"address to be Added\"}},\"amIConsumer()\":{\"return\":\"boolean for caller address state in `_consumers` Role\"},\"amIDesigner()\":{\"return\":\"boolean for caller address state in `_designers` Role\"},\"amIDistributor()\":{\"return\":\"boolean for caller address state in `_distributors` Role\"},\"amIManufacturer()\":{\"return\":\"boolean for caller address state in `_manufacturers` Role\"},\"amIRegulator()\":{\"return\":\"boolean for caller address state in `_regulators` Role\"},\"amIRetailer()\":{\"return\":\"boolean for caller address state in `_retailers` Role\"},\"isConsumer(address)\":{\"params\":{\"account\":\"address to be checked\"},\"return\":\"boolean for this address state in `_consumers` Role\"},\"isDesigner(address)\":{\"params\":{\"account\":\"address to be checked\"},\"return\":\"boolean for this address state in `_designers` Role\"},\"isDistributor(address)\":{\"params\":{\"account\":\"address to be checked\"},\"return\":\"boolean for this address state in `_distributors` Role\"},\"isManufacturer(address)\":{\"params\":{\"account\":\"address to be checked\"},\"return\":\"boolean for this address state in `_manufacturers` Role\"},\"isRegulator(address)\":{\"params\":{\"account\":\"address to be checked\"},\"return\":\"boolean for this address state in `_regulators` Role\"},\"isRetailer(address)\":{\"params\":{\"account\":\"address to be checked\"},\"return\":\"boolean for this address state in `_retailers` Role\"},\"whoAmI()\":{\"return\":\"array contining every role with its state as boolean\"}},\"title\":\"Role Ability Contract\"},\"userdoc\":{\"methods\":{\"addRegulator(address)\":{\"notice\":\"Function to add account to regulator role`onlyRegulator` modifier  assignd to sure that the whole role groub regulated\"},\"amIConsumer()\":{\"notice\":\"Function to check caller `msg.sender` if he has consumer role\"},\"amIDesigner()\":{\"notice\":\"Function to check caller `msg.sender` if he has designer role\"},\"amIDistributor()\":{\"notice\":\"Function to check caller `msg.sender` if he has distributor role\"},\"amIManufacturer()\":{\"notice\":\"Function to check caller `msg.sender` if he has manufacturer role\"},\"amIRegulator()\":{\"notice\":\"Function to check caller `msg.sender` if he has regulator role\"},\"amIRetailer()\":{\"notice\":\"Function to check caller `msg.sender` if he has retailer role\"},\"assignMeAsConsumer()\":{\"notice\":\"Function to assign caller `msg.sender` to consumer role\"},\"assignMeAsDesigner()\":{\"notice\":\"Function to assign caller `msg.sender` to designer roledesigner allways should be a menufacturer, after checking isManufacturer add it if not\"},\"assignMeAsDistributor()\":{\"notice\":\"Function to assign caller `msg.sender` to distributor role\"},\"assignMeAsManufacturer()\":{\"notice\":\"Function to assign caller `msg.sender` to manufacturer role\"},\"assignMeAsRetailer()\":{\"notice\":\"Function to assign caller `msg.sender` to retailer role\"},\"isConsumer(address)\":{\"notice\":\"Function to check even he has consumer role or notuses'Roles' library's internal function `has()` to check, refer to library for more detail\"},\"isDesigner(address)\":{\"notice\":\"Function to check even he has designer role or notuses'Roles' library's internal function `has()` to check, refer to library for more detail\"},\"isDistributor(address)\":{\"notice\":\"Function to check even he has distributor role or notuses'Roles' library's internal function `has()` to check, refer to library for more detail\"},\"isManufacturer(address)\":{\"notice\":\"Function to check even he has manufacturer role or notuses'Roles' library's internal function `has()` to check, refer to library for more detail\"},\"isRegulator(address)\":{\"notice\":\"Function to check even he has regulator role or notuses'Roles' library's internal function `has()` to check, refer to library for more detail\"},\"isRetailer(address)\":{\"notice\":\"Function to check even he has retailer role or notuses'Roles' library's internal function `has()` to check, refer to library for more detail\"},\"renounceMeFromConsumer()\":{\"notice\":\"Function to renounce caller `msg.sender` from consumer role\"},\"renounceMeFromDesigner()\":{\"notice\":\"Function to renounce caller `msg.sender` from designer role\"},\"renounceMeFromDistributor()\":{\"notice\":\"Function to renounce caller `msg.sender` from distributor role\"},\"renounceMeFromManufacturer()\":{\"notice\":\"Function to renounce caller `msg.sender` from manufacturer role\"},\"renounceMeFromRegulator()\":{\"notice\":\"Function to renounce caller `msg.sender` from regulator role\"},\"renounceMeFromRetailer()\":{\"notice\":\"Function to renounce caller `msg.sender` from retailer role\"},\"whoAmI()\":{\"notice\":\"Function to check all roles for the caller\"}}}},\"settings\":{\"compilationTarget\":{\"/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Rolable.sol\":\"Rolable\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Rolable.sol\":{\"keccak256\":\"0xba130a62f91f4db409420b14b4aa3d92c0d97e721c1a11912e8eec53e73da234\",\"urls\":[\"bzzr://ee391d8136133d4a151bc45d87dffd962244903ab51aa58f31104f323ae48b9b\"]},\"/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Roles/Consumer.sol\":{\"keccak256\":\"0xa1134c6701f645f25a29f8643421fe5b84149b890768f17e743dff2eb769e32b\",\"urls\":[\"bzzr://f513981623b48a6126bd9819c7a70c7901f7e5db0e160e234047244f787c1499\"]},\"/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Roles/Designer.sol\":{\"keccak256\":\"0x203d45993c4d887c8e7bf250ad9b755c9f777123763188df4e935917225d63ff\",\"urls\":[\"bzzr://9ecd38d0cdd572703a51d82ac5f623ba7eef1c8f452295a5c911b8037884b53d\"]},\"/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Roles/Distributor.sol\":{\"keccak256\":\"0x0a1d5bd50b7ab82afa3cc2c6b99413e3161f2f55575514070727b5d32502404f\",\"urls\":[\"bzzr://d6734262fcb29ccfca2932a4c51459e2c90cfaa82b6f5c573642d8f21773025d\"]},\"/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Roles/Manufacturer.sol\":{\"keccak256\":\"0xc1bce501bd7f5583f61613314d0a8ad273d9dd61f54b327af5f92208ae7746e1\",\"urls\":[\"bzzr://c2b085af0570c6a207829fc846b262c071c2992be6ba16f6ff740fc11f471f7d\"]},\"/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Roles/Regulator.sol\":{\"keccak256\":\"0x26f2b997738694903db4abf37ac291c3f8cc0f8bf05cc603ac8a8e1d7fffab11\",\"urls\":[\"bzzr://ccebf499a2d4afcd7c9d1334bb4eea00b5a0e1da80f14e3ba8432eb903d3650a\"]},\"/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Roles/Retailer.sol\":{\"keccak256\":\"0x691e15e7354f950186b1d1dc951c61d1aa786f52a2d90d2b9db92dd09363c51a\",\"urls\":[\"bzzr://17e80f2d04058b0fc88a120ef78223d5135f7362f4ce6f7ef4bf3d3f9f00582c\"]},\"openzeppelin-solidity/contracts/access/Roles.sol\":{\"keccak256\":\"0x659ba0f9a3392cd50a8a5fafaf5dfd8c6a0878f6a4613bceff4e90dceddcd865\",\"urls\":[\"bzzr://f704341d520fbc98716541f1b3f67737f0ee6e94adf072a66acb2bd25d593c2b\"]}},\"version\":1}",
+  "bytecode": "0x60806040526200001e33620000a6640100000000026401000000009004565b620000383362000110640100000000026401000000009004565b62000052336200017a640100000000026401000000009004565b6200006c33620001e4640100000000026401000000009004565b62000086336200024e640100000000026401000000009004565b620000a033620002b8640100000000026401000000009004565b6200047a565b620000ca816000620003226401000000000262000ec5179091906401000000009004565b8073ffffffffffffffffffffffffffffffffffffffff167f28b26e7a3d20aedbc5f8f2ebf7da671c0491723a2b78f47a097b0e46dee0714260405160405180910390a250565b62000134816001620003226401000000000262000ec5179091906401000000009004565b8073ffffffffffffffffffffffffffffffffffffffff167f561138658ca49a8540dc70dcfe64c9026c1c5b9344642242dd6562970f9c127860405160405180910390a250565b6200019e816002620003226401000000000262000ec5179091906401000000009004565b8073ffffffffffffffffffffffffffffffffffffffff167f97069a05372df648feb174cc125711b2c72a81450a1ab2769c8faf49917d7fd260405160405180910390a250565b62000208816003620003226401000000000262000ec5179091906401000000009004565b8073ffffffffffffffffffffffffffffffffffffffff167fddbf200aa634dc3fb81cfd68583dd1040d1c751d335e1d86b631bde3e977fea860405160405180910390a250565b62000272816004620003226401000000000262000ec5179091906401000000009004565b8073ffffffffffffffffffffffffffffffffffffffff167f2860b5ba44f983f8f363ee6eeb3c24cbca3096803fbdd5129b9e253f01cac07660405160405180910390a250565b620002dc816005620003226401000000000262000ec5179091906401000000009004565b8073ffffffffffffffffffffffffffffffffffffffff167f71ae26cad02663e3d92efd6ec56031a80d74a20c0ab4183faa8bf262261c9baa60405160405180910390a250565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515156200035f57600080fd5b6200037a8282620003e5640100000000026401000000009004565b1515156200038757600080fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16141515156200042357600080fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b610fa1806200048a6000396000f3fe608060405260043610610149576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063118f74f51461014e57806317d4a491146101655780631d375b0c146101ce57806335c96e97146101fd57806348c149bd1461022c57806354fc91691461024357806355edd88b146102ac5780635da09b88146102c35780635ec5b7281461032c57806369d095c11461035b578063834ff73914610372578063879581ba146103db5780638f0c86fa146103f25780639af687a61461045b578063a40e210f1461048a578063a4a418b1146104a1578063a4f03e23146104b8578063ac63f3c714610521578063c4f2201114610572578063c82d9afc14610589578063cf196671146105a0578063da91254c146105cf578063e1d6f86f14610635578063eda0baa814610664578063ef2014771461067b575b600080fd5b34801561015a57600080fd5b50610163610692565b005b34801561017157600080fd5b506101b46004803603602081101561018857600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061069d565b604051808215151515815260200191505060405180910390f35b3480156101da57600080fd5b506101e36106ba565b604051808215151515815260200191505060405180910390f35b34801561020957600080fd5b506102126106d5565b604051808215151515815260200191505060405180910390f35b34801561023857600080fd5b506102416106f0565b005b34801561024f57600080fd5b506102926004803603602081101561026657600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506106fb565b604051808215151515815260200191505060405180910390f35b3480156102b857600080fd5b506102c1610718565b005b3480156102cf57600080fd5b50610312600480360360208110156102e657600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610723565b604051808215151515815260200191505060405180910390f35b34801561033857600080fd5b50610341610740565b604051808215151515815260200191505060405180910390f35b34801561036757600080fd5b5061037061075b565b005b34801561037e57600080fd5b506103c16004803603602081101561039557600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610766565b604051808215151515815260200191505060405180910390f35b3480156103e757600080fd5b506103f0610783565b005b3480156103fe57600080fd5b506104416004803603602081101561041557600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061078e565b604051808215151515815260200191505060405180910390f35b34801561046757600080fd5b506104706107ab565b604051808215151515815260200191505060405180910390f35b34801561049657600080fd5b5061049f6107c6565b005b3480156104ad57600080fd5b506104b66107d1565b005b3480156104c457600080fd5b50610507600480360360208110156104db57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506107f5565b604051808215151515815260200191505060405180910390f35b34801561052d57600080fd5b506105706004803603602081101561054457600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610812565b005b34801561057e57600080fd5b5061058761089b565b005b34801561059557600080fd5b5061059e6108a6565b005b3480156105ac57600080fd5b506105b56108b1565b604051808215151515815260200191505060405180910390f35b3480156105db57600080fd5b506105e46108cc565b60405180871515151581526020018615151515815260200185151515158152602001841515151581526020018315151515815260200182151515158152602001965050505050505060405180910390f35b34801561064157600080fd5b5061064a610919565b604051808215151515815260200191505060405180910390f35b34801561067057600080fd5b50610679610934565b005b34801561068757600080fd5b5061069061093f565b005b61069b3361094a565b565b60006106b38260016109a490919063ffffffff16565b9050919050565b60006106d03360056109a490919063ffffffff16565b905090565b60006106eb3360046109a490919063ffffffff16565b905090565b6106f933610a38565b565b60006107118260046109a490919063ffffffff16565b9050919050565b61072133610a92565b565b60006107398260056109a490919063ffffffff16565b9050919050565b60006107563360026109a490919063ffffffff16565b905090565b61076433610aec565b565b600061077c8260006109a490919063ffffffff16565b9050919050565b61078c33610b46565b565b60006107a48260036109a490919063ffffffff16565b9050919050565b60006107c13360006109a490919063ffffffff16565b905090565b6107cf33610ba0565b565b6107da33610bfa565b6107e33361069d565b15156107f3576107f233610a38565b5b565b600061080b8260026109a490919063ffffffff16565b9050919050565b61081b336106fb565b151561088f576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260108152602001807f4e6f74204120526567756c61746f72210000000000000000000000000000000081525060200191505060405180910390fd5b61089881610c54565b50565b6108a433610cae565b565b6108af33610d08565b565b60006108c73360036109a490919063ffffffff16565b905090565b6000806000806000806108dd6107ab565b95506108e76106ba565b94506108f16108b1565b93506108fb610919565b92506109056106d5565b915061090f610740565b9050909192939495565b600061092f3360016109a490919063ffffffff16565b905090565b61093d33610d62565b565b61094833610dbc565b565b61095e816000610e1690919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167fe3f5ed5f263f1f01764a96edfc7d025f511ec5f7d180e8816908b78bcf74f09860405160405180910390a250565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16141515156109e157600080fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b610a4c816001610ec590919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f561138658ca49a8540dc70dcfe64c9026c1c5b9344642242dd6562970f9c127860405160405180910390a250565b610aa6816003610e1690919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f126174f6cf49c81cdb4a9214c6b8f037bef55b4ec31e4fc776cea2a1c8a88d5960405160405180910390a250565b610b00816005610e1690919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167fdb7176e79cffef81cb01767dd0447a0b24bb72ca9778d4b245581086b2a7e6db60405160405180910390a250565b610b5a816004610e1690919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167fc8ecc453f78c13ccc7596603b61935f29b99dc15bb91b91647e1ccf2469ad00a60405160405180910390a250565b610bb4816001610e1690919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f2fed5abf6a80d6dfe30b4895481b2fc5d7dce5f8f7b931832f4a2947d5040c7f60405160405180910390a250565b610c0e816002610ec590919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f97069a05372df648feb174cc125711b2c72a81450a1ab2769c8faf49917d7fd260405160405180910390a250565b610c68816004610ec590919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f2860b5ba44f983f8f363ee6eeb3c24cbca3096803fbdd5129b9e253f01cac07660405160405180910390a250565b610cc2816003610ec590919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167fddbf200aa634dc3fb81cfd68583dd1040d1c751d335e1d86b631bde3e977fea860405160405180910390a250565b610d1c816000610ec590919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f28b26e7a3d20aedbc5f8f2ebf7da671c0491723a2b78f47a097b0e46dee0714260405160405180910390a250565b610d76816002610e1690919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167fe16181bbb8b138f88a23696ae25f2c63713913e3fc6922b234a08639bf53cbea60405160405180910390a250565b610dd0816005610ec590919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f71ae26cad02663e3d92efd6ec56031a80d74a20c0ab4183faa8bf262261c9baa60405160405180910390a250565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614151515610e5257600080fd5b610e5c82826109a4565b1515610e6757600080fd5b60008260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614151515610f0157600080fd5b610f0b82826109a4565b151515610f1757600080fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550505056fea165627a7a7230582062f05450daddb931e892c015a0e36bc54383e684813a12821773e3b63a0bf02a0029",
+  "deployedBytecode": "0x608060405260043610610149576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063118f74f51461014e57806317d4a491146101655780631d375b0c146101ce57806335c96e97146101fd57806348c149bd1461022c57806354fc91691461024357806355edd88b146102ac5780635da09b88146102c35780635ec5b7281461032c57806369d095c11461035b578063834ff73914610372578063879581ba146103db5780638f0c86fa146103f25780639af687a61461045b578063a40e210f1461048a578063a4a418b1146104a1578063a4f03e23146104b8578063ac63f3c714610521578063c4f2201114610572578063c82d9afc14610589578063cf196671146105a0578063da91254c146105cf578063e1d6f86f14610635578063eda0baa814610664578063ef2014771461067b575b600080fd5b34801561015a57600080fd5b50610163610692565b005b34801561017157600080fd5b506101b46004803603602081101561018857600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061069d565b604051808215151515815260200191505060405180910390f35b3480156101da57600080fd5b506101e36106ba565b604051808215151515815260200191505060405180910390f35b34801561020957600080fd5b506102126106d5565b604051808215151515815260200191505060405180910390f35b34801561023857600080fd5b506102416106f0565b005b34801561024f57600080fd5b506102926004803603602081101561026657600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506106fb565b604051808215151515815260200191505060405180910390f35b3480156102b857600080fd5b506102c1610718565b005b3480156102cf57600080fd5b50610312600480360360208110156102e657600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610723565b604051808215151515815260200191505060405180910390f35b34801561033857600080fd5b50610341610740565b604051808215151515815260200191505060405180910390f35b34801561036757600080fd5b5061037061075b565b005b34801561037e57600080fd5b506103c16004803603602081101561039557600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610766565b604051808215151515815260200191505060405180910390f35b3480156103e757600080fd5b506103f0610783565b005b3480156103fe57600080fd5b506104416004803603602081101561041557600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061078e565b604051808215151515815260200191505060405180910390f35b34801561046757600080fd5b506104706107ab565b604051808215151515815260200191505060405180910390f35b34801561049657600080fd5b5061049f6107c6565b005b3480156104ad57600080fd5b506104b66107d1565b005b3480156104c457600080fd5b50610507600480360360208110156104db57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506107f5565b604051808215151515815260200191505060405180910390f35b34801561052d57600080fd5b506105706004803603602081101561054457600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610812565b005b34801561057e57600080fd5b5061058761089b565b005b34801561059557600080fd5b5061059e6108a6565b005b3480156105ac57600080fd5b506105b56108b1565b604051808215151515815260200191505060405180910390f35b3480156105db57600080fd5b506105e46108cc565b60405180871515151581526020018615151515815260200185151515158152602001841515151581526020018315151515815260200182151515158152602001965050505050505060405180910390f35b34801561064157600080fd5b5061064a610919565b604051808215151515815260200191505060405180910390f35b34801561067057600080fd5b50610679610934565b005b34801561068757600080fd5b5061069061093f565b005b61069b3361094a565b565b60006106b38260016109a490919063ffffffff16565b9050919050565b60006106d03360056109a490919063ffffffff16565b905090565b60006106eb3360046109a490919063ffffffff16565b905090565b6106f933610a38565b565b60006107118260046109a490919063ffffffff16565b9050919050565b61072133610a92565b565b60006107398260056109a490919063ffffffff16565b9050919050565b60006107563360026109a490919063ffffffff16565b905090565b61076433610aec565b565b600061077c8260006109a490919063ffffffff16565b9050919050565b61078c33610b46565b565b60006107a48260036109a490919063ffffffff16565b9050919050565b60006107c13360006109a490919063ffffffff16565b905090565b6107cf33610ba0565b565b6107da33610bfa565b6107e33361069d565b15156107f3576107f233610a38565b5b565b600061080b8260026109a490919063ffffffff16565b9050919050565b61081b336106fb565b151561088f576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260108152602001807f4e6f74204120526567756c61746f72210000000000000000000000000000000081525060200191505060405180910390fd5b61089881610c54565b50565b6108a433610cae565b565b6108af33610d08565b565b60006108c73360036109a490919063ffffffff16565b905090565b6000806000806000806108dd6107ab565b95506108e76106ba565b94506108f16108b1565b93506108fb610919565b92506109056106d5565b915061090f610740565b9050909192939495565b600061092f3360016109a490919063ffffffff16565b905090565b61093d33610d62565b565b61094833610dbc565b565b61095e816000610e1690919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167fe3f5ed5f263f1f01764a96edfc7d025f511ec5f7d180e8816908b78bcf74f09860405160405180910390a250565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16141515156109e157600080fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b610a4c816001610ec590919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f561138658ca49a8540dc70dcfe64c9026c1c5b9344642242dd6562970f9c127860405160405180910390a250565b610aa6816003610e1690919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f126174f6cf49c81cdb4a9214c6b8f037bef55b4ec31e4fc776cea2a1c8a88d5960405160405180910390a250565b610b00816005610e1690919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167fdb7176e79cffef81cb01767dd0447a0b24bb72ca9778d4b245581086b2a7e6db60405160405180910390a250565b610b5a816004610e1690919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167fc8ecc453f78c13ccc7596603b61935f29b99dc15bb91b91647e1ccf2469ad00a60405160405180910390a250565b610bb4816001610e1690919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f2fed5abf6a80d6dfe30b4895481b2fc5d7dce5f8f7b931832f4a2947d5040c7f60405160405180910390a250565b610c0e816002610ec590919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f97069a05372df648feb174cc125711b2c72a81450a1ab2769c8faf49917d7fd260405160405180910390a250565b610c68816004610ec590919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f2860b5ba44f983f8f363ee6eeb3c24cbca3096803fbdd5129b9e253f01cac07660405160405180910390a250565b610cc2816003610ec590919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167fddbf200aa634dc3fb81cfd68583dd1040d1c751d335e1d86b631bde3e977fea860405160405180910390a250565b610d1c816000610ec590919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f28b26e7a3d20aedbc5f8f2ebf7da671c0491723a2b78f47a097b0e46dee0714260405160405180910390a250565b610d76816002610e1690919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167fe16181bbb8b138f88a23696ae25f2c63713913e3fc6922b234a08639bf53cbea60405160405180910390a250565b610dd0816005610ec590919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f71ae26cad02663e3d92efd6ec56031a80d74a20c0ab4183faa8bf262261c9baa60405160405180910390a250565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614151515610e5257600080fd5b610e5c82826109a4565b1515610e6757600080fd5b60008260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614151515610f0157600080fd5b610f0b82826109a4565b151515610f1757600080fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550505056fea165627a7a7230582062f05450daddb931e892c015a0e36bc54383e684813a12821773e3b63a0bf02a0029",
+  "sourceMap": "358:623:0:-;;;876:24:1;889:10;876:12;;;:24;;;:::i;:::-;908:28:4;925:10;908:16;;;:28;;;:::i;:::-;959:24:2;972:10;959:12;;;:24;;;:::i;:::-;900:27:3;916:10;900:15;;;:27;;;:::i;:::-;884:25:5;898:10;884:13;;;:25;;;:::i;:::-;876:24:6;889:10;876:12;;;:24;;;:::i;:::-;358:623:0;;2238:125:1;2296:23;2311:7;2296:10;:14;;;;;;:23;;;;;:::i;:::-;2348:7;2334:22;;;;;;;;;;;;2238:125;:::o;2347:137:4:-;2409:27;2428:7;2409:14;:18;;;;;;:27;;;;;:::i;:::-;2469:7;2451:26;;;;;;;;;;;;2347:137;:::o;2507:125:2:-;2565:23;2580:7;2565:10;:14;;;;;;:23;;;;;:::i;:::-;2617:7;2603:22;;;;;;;;;;;;2507:125;:::o;2319:134:3:-;2380:26;2398:7;2380:13;:17;;;;;;:26;;;;;:::i;:::-;2438:7;2421:25;;;;;;;;;;;;2319:134;:::o;2406:128:5:-;2465:24;2481:7;2465:11;:15;;;;;;:24;;;;;:::i;:::-;2519:7;2504:23;;;;;;;;;;;;2406:128;:::o;2239:125:6:-;2297:23;2312:7;2297:10;:14;;;;;;:23;;;;;:::i;:::-;2349:7;2335:22;;;;;;;;;;;;2239:125;:::o;259:181:13:-;354:1;335:21;;:7;:21;;;;327:30;;;;;;;;376:18;380:4;386:7;376:3;;;:18;;;:::i;:::-;375:19;367:28;;;;;;;;429:4;406;:11;;:20;418:7;406:20;;;;;;;;;;;;;;;;:27;;;;;;;;;;;;;;;;;;259:181;;:::o;786:162::-;858:4;901:1;882:21;;:7;:21;;;;874:30;;;;;;;;921:4;:11;;:20;933:7;921:20;;;;;;;;;;;;;;;;;;;;;;;;;914:27;;786:162;;;;:::o;358:623:0:-;;;;;;;",
+  "deployedSourceMap": "358:623:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1948:85:1;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1948:85:1;;;;;;1430:119:4;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1430:119:4;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1430:119:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1627:100:6;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1627:100:6;;;;;;;;;;;;;;;;;;;;;;;;;;;1645:102:5;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1645:102:5;;;;;;;;;;;;;;;;;;;;;;;;;;;1885:86:4;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1885:86:4;;;;;;1384:113:5;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1384:113:5;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1384:113:5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2023:91:3;;8:9:-1;5:2;;;30:1;27;20:12;5:2;2023:91:3;;;;;;1370:111:6;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1370:111:6;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1370:111:6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1710:100:2;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1710:100:2;;;;;;;;;;;;;;;;;;;;;;;;;;;1949:85:6;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1949:85:6;;;;;;1369:111:1;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1369:111:1;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1369:111:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2114:87:5;;8:9:-1;5:2;;;30:1;27;20:12;5:2;2114:87:5;;;;;;1414:117:3;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1414:117:3;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1414:117:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1626:100:1;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1626:100:1;;;;;;;;;;;;;;;;;;;;;;;;;;;2049:93:4;;8:9:-1;5:2;;;30:1;27;20:12;5:2;2049:93:4;;;;;;1982:161:2;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1982:161:2;;;;;;1453:111;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1453:111:2;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1453:111:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1938:101:5;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1938:101:5;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1938:101:5;;;;;;;;;;;;;;;;;;;;;;1862:84:3;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1862:84:3;;;;;;1796:78:1;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1796:78:1;;;;;;1683:106:3;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1683:106:3;;;;;;;;;;;;;;;;;;;;;;;;;;;558:421:0;;8:9:-1;5:2;;;30:1;27;20:12;5:2;558:421:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1703:108:4;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1703:108:4;;;;;;;;;;;;;;;;;;;;;;;;;;;2217:85:2;;8:9:-1;5:2;;;30:1;27;20:12;5:2;2217:85:2;;;;;;1797:78:6;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1797:78:6;;;;;;1948:85:1;1999:27;2015:10;1999:15;:27::i;:::-;1948:85::o;1430:119:4:-;1492:4;1515:27;1534:7;1515:14;:18;;:27;;;;:::i;:::-;1508:34;;1430:119;;;:::o;1627:100:6:-;1671:4;1694:26;1709:10;1694;:14;;:26;;;;:::i;:::-;1687:33;;1627:100;:::o;1645:102:5:-;1690:4;1713:27;1729:10;1713:11;:15;;:27;;;;:::i;:::-;1706:34;;1645:102;:::o;1885:86:4:-;1936:28;1953:10;1936:16;:28::i;:::-;1885:86::o;1384:113:5:-;1443:4;1466:24;1482:7;1466:11;:15;;:24;;;;:::i;:::-;1459:31;;1384:113;;;:::o;2023:91:3:-;2077:30;2096:10;2077:18;:30::i;:::-;2023:91::o;1370:111:6:-;1428:4;1451:23;1466:7;1451:10;:14;;:23;;;;:::i;:::-;1444:30;;1370:111;;;:::o;1710:100:2:-;1754:4;1777:26;1792:10;1777;:14;;:26;;;;:::i;:::-;1770:33;;1710:100;:::o;1949:85:6:-;2000:27;2016:10;2000:15;:27::i;:::-;1949:85::o;1369:111:1:-;1427:4;1450:23;1465:7;1450:10;:14;;:23;;;;:::i;:::-;1443:30;;1369:111;;;:::o;2114:87:5:-;2166:28;2183:10;2166:16;:28::i;:::-;2114:87::o;1414:117:3:-;1475:4;1498:26;1516:7;1498:13;:17;;:26;;;;:::i;:::-;1491:33;;1414:117;;;:::o;1626:100:1:-;1670:4;1693:26;1708:10;1693;:14;;:26;;;;:::i;:::-;1686:33;;1626:100;:::o;2049:93:4:-;2104:31;2124:10;2104:19;:31::i;:::-;2049:93::o;1982:161:2:-;2029:24;2042:10;2029:12;:24::i;:::-;2068:26;2083:10;2068:14;:26::i;:::-;2067:27;2063:73;;;2108:28;2125:10;2108:16;:28::i;:::-;2063:73;1982:161::o;1453:111::-;1511:4;1534:23;1549:7;1534:10;:14;;:23;;;;:::i;:::-;1527:30;;1453:111;;;:::o;1938:101:5:-;1035:23;1047:10;1035:11;:23::i;:::-;1027:52;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2010:22;2024:7;2010:13;:22::i;:::-;1938:101;:::o;1862:84:3:-;1912:27;1928:10;1912:15;:27::i;:::-;1862:84::o;1796:78:1:-;1843:24;1856:10;1843:12;:24::i;:::-;1796:78::o;1683:106:3:-;1730:4;1753:29;1771:10;1753:13;:17;;:29;;;;:::i;:::-;1746:36;;1683:106;:::o;558:421:0:-;605:13;628;651:16;677:17;704:14;728:13;773;:11;:13::i;:::-;762:24;;807:13;:11;:13::i;:::-;796:24;;844:16;:14;:16::i;:::-;830:30;;885:17;:15;:17::i;:::-;870:32;;924:14;:12;:14::i;:::-;912:26;;959:13;:11;:13::i;:::-;948:24;;558:421;;;;;;:::o;1703:108:4:-;1751:4;1774:30;1793:10;1774:14;:18;;:30;;;;:::i;:::-;1767:37;;1703:108;:::o;2217:85:2:-;2268:27;2284:10;2268:15;:27::i;:::-;2217:85::o;1797:78:6:-;1844:24;1857:10;1844:12;:24::i;:::-;1797:78::o;2578:133:1:-;2639:26;2657:7;2639:10;:17;;:26;;;;:::i;:::-;2696:7;2680:24;;;;;;;;;;;;2578:133;:::o;786:162:13:-;858:4;901:1;882:21;;:7;:21;;;;874:30;;;;;;;;921:4;:11;;:20;933:7;921:20;;;;;;;;;;;;;;;;;;;;;;;;;914:27;;786:162;;;;:::o;2347:137:4:-;2409:27;2428:7;2409:14;:18;;:27;;;;:::i;:::-;2469:7;2451:26;;;;;;;;;;;;2347:137;:::o;2668:142:3:-;2732:29;2753:7;2732:13;:20;;:29;;;;:::i;:::-;2795:7;2776:27;;;;;;;;;;;;2668:142;:::o;2579:133:6:-;2640:26;2658:7;2640:10;:17;;:26;;;;:::i;:::-;2697:7;2681:24;;;;;;;;;;;;2579:133;:::o;2749:136:5:-;2811:27;2830:7;2811:11;:18;;:27;;;;:::i;:::-;2870:7;2853:25;;;;;;;;;;;;2749:136;:::o;2699:145:4:-;2764:30;2786:7;2764:14;:21;;:30;;;;:::i;:::-;2829:7;2809:28;;;;;;;;;;;;2699:145;:::o;2507:125:2:-;2565:23;2580:7;2565:10;:14;;:23;;;;:::i;:::-;2617:7;2603:22;;;;;;;;;;;;2507:125;:::o;2406:128:5:-;2465:24;2481:7;2465:11;:15;;:24;;;;:::i;:::-;2519:7;2504:23;;;;;;;;;;;;2406:128;:::o;2319:134:3:-;2380:26;2398:7;2380:13;:17;;:26;;;;:::i;:::-;2438:7;2421:25;;;;;;;;;;;;2319:134;:::o;2238:125:1:-;2296:23;2311:7;2296:10;:14;;:23;;;;:::i;:::-;2348:7;2334:22;;;;;;;;;;;;2238:125;:::o;2847:133:2:-;2908:26;2926:7;2908:10;:17;;:26;;;;:::i;:::-;2965:7;2949:24;;;;;;;;;;;;2847:133;:::o;2239:125:6:-;2297:23;2312:7;2297:10;:14;;:23;;;;:::i;:::-;2349:7;2335:22;;;;;;;;;;;;2239:125;:::o;514:184:13:-;612:1;593:21;;:7;:21;;;;585:30;;;;;;;;633:18;637:4;643:7;633:3;:18::i;:::-;625:27;;;;;;;;686:5;663:4;:11;;:20;675:7;663:20;;;;;;;;;;;;;;;;:28;;;;;;;;;;;;;;;;;;514:184;;:::o;259:181::-;354:1;335:21;;:7;:21;;;;327:30;;;;;;;;376:18;380:4;386:7;376:3;:18::i;:::-;375:19;367:28;;;;;;;;429:4;406;:11;;:20;418:7;406:20;;;;;;;;;;;;;;;;:27;;;;;;;;;;;;;;;;;;259:181;;:::o",
+  "source": "pragma solidity ^0.5.0;\n\n/// Import all Roles\nimport \"./Roles/Consumer.sol\";\nimport \"./Roles/Designer.sol\";\nimport \"./Roles/Distributor.sol\";\nimport \"./Roles/Manufacturer.sol\";\nimport \"./Roles/Regulator.sol\";\nimport \"./Roles/Retailer.sol\";\n\n\n/// @author Khalid F.Sh\n/// @title Role Ability Contract\n/// @dev contract for adopting all roles in access control\ncontract Rolable is Consumer, Designer, Distributor, Regulator, Retailer {\n\n    /// Function to check all roles for the caller\n    /// @return array contining every role with its state as boolean\n    function whoAmI() public view returns(\n        bool consumer,\n        bool retailer,\n        bool distributor,\n        bool manufacturer,\n        bool regulator,\n        bool designer\n    )\n    {\n        consumer = amIConsumer();\n        retailer = amIRetailer();\n        distributor = amIDistributor();\n        manufacturer = amIManufacturer();\n        regulator = amIRegulator();\n        designer = amIDesigner();\n    }\n}\n",
+  "sourcePath": "/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Rolable.sol",
+  "ast": {
+    "absolutePath": "/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Rolable.sol",
+    "exportedSymbols": {
+      "Rolable": [
+        64
+      ]
+    },
+    "id": 65,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "absolutePath": "/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Roles/Consumer.sol",
+        "file": "./Roles/Consumer.sol",
+        "id": 2,
+        "nodeType": "ImportDirective",
+        "scope": 65,
+        "sourceUnit": 178,
+        "src": "46:30:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Roles/Designer.sol",
+        "file": "./Roles/Designer.sol",
+        "id": 3,
+        "nodeType": "ImportDirective",
+        "scope": 65,
+        "sourceUnit": 305,
+        "src": "77:30:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Roles/Distributor.sol",
+        "file": "./Roles/Distributor.sol",
+        "id": 4,
+        "nodeType": "ImportDirective",
+        "scope": 65,
+        "sourceUnit": 418,
+        "src": "108:33:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Roles/Manufacturer.sol",
+        "file": "./Roles/Manufacturer.sol",
+        "id": 5,
+        "nodeType": "ImportDirective",
+        "scope": 65,
+        "sourceUnit": 531,
+        "src": "142:34:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Roles/Regulator.sol",
+        "file": "./Roles/Regulator.sol",
+        "id": 6,
+        "nodeType": "ImportDirective",
+        "scope": 65,
+        "sourceUnit": 647,
+        "src": "177:31:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Roles/Retailer.sol",
+        "file": "./Roles/Retailer.sol",
+        "id": 7,
+        "nodeType": "ImportDirective",
+        "scope": 65,
+        "sourceUnit": 760,
+        "src": "209:30:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 8,
+              "name": "Consumer",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 177,
+              "src": "378:8:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Consumer_$177",
+                "typeString": "contract Consumer"
+              }
+            },
+            "id": 9,
+            "nodeType": "InheritanceSpecifier",
+            "src": "378:8:0"
+          },
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 10,
+              "name": "Designer",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 304,
+              "src": "388:8:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Designer_$304",
+                "typeString": "contract Designer"
+              }
+            },
+            "id": 11,
+            "nodeType": "InheritanceSpecifier",
+            "src": "388:8:0"
+          },
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 12,
+              "name": "Distributor",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 417,
+              "src": "398:11:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Distributor_$417",
+                "typeString": "contract Distributor"
+              }
+            },
+            "id": 13,
+            "nodeType": "InheritanceSpecifier",
+            "src": "398:11:0"
+          },
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 14,
+              "name": "Regulator",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 646,
+              "src": "411:9:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Regulator_$646",
+                "typeString": "contract Regulator"
+              }
+            },
+            "id": 15,
+            "nodeType": "InheritanceSpecifier",
+            "src": "411:9:0"
+          },
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 16,
+              "name": "Retailer",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 759,
+              "src": "422:8:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Retailer_$759",
+                "typeString": "contract Retailer"
+              }
+            },
+            "id": 17,
+            "nodeType": "InheritanceSpecifier",
+            "src": "422:8:0"
+          }
+        ],
+        "contractDependencies": [
+          177,
+          304,
+          417,
+          530,
+          646,
+          759
+        ],
+        "contractKind": "contract",
+        "documentation": "@author Khalid F.Sh\n @title Role Ability Contract\n @dev contract for adopting all roles in access control",
+        "fullyImplemented": true,
+        "id": 64,
+        "linearizedBaseContracts": [
+          64,
+          759,
+          646,
+          417,
+          304,
+          530,
+          177
+        ],
+        "name": "Rolable",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 62,
+              "nodeType": "Block",
+              "src": "752:227:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 35,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 32,
+                      "name": "consumer",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 20,
+                      "src": "762:8:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 33,
+                        "name": "amIConsumer",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 126,
+                        "src": "773:11:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
+                          "typeString": "function () view returns (bool)"
+                        }
+                      },
+                      "id": 34,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "773:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "src": "762:24:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 36,
+                  "nodeType": "ExpressionStatement",
+                  "src": "762:24:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 40,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 37,
+                      "name": "retailer",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 22,
+                      "src": "796:8:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 38,
+                        "name": "amIRetailer",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 708,
+                        "src": "807:11:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
+                          "typeString": "function () view returns (bool)"
+                        }
+                      },
+                      "id": 39,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "807:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "src": "796:24:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 41,
+                  "nodeType": "ExpressionStatement",
+                  "src": "796:24:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 45,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 42,
+                      "name": "distributor",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 24,
+                      "src": "830:11:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 43,
+                        "name": "amIDistributor",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 366,
+                        "src": "844:14:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
+                          "typeString": "function () view returns (bool)"
+                        }
+                      },
+                      "id": 44,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "844:16:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "src": "830:30:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 46,
+                  "nodeType": "ExpressionStatement",
+                  "src": "830:30:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 50,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 47,
+                      "name": "manufacturer",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 26,
+                      "src": "870:12:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 48,
+                        "name": "amIManufacturer",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 479,
+                        "src": "885:15:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
+                          "typeString": "function () view returns (bool)"
+                        }
+                      },
+                      "id": 49,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "885:17:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "src": "870:32:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 51,
+                  "nodeType": "ExpressionStatement",
+                  "src": "870:32:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 55,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 52,
+                      "name": "regulator",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 28,
+                      "src": "912:9:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 53,
+                        "name": "amIRegulator",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 592,
+                        "src": "924:12:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
+                          "typeString": "function () view returns (bool)"
+                        }
+                      },
+                      "id": 54,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "924:14:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "src": "912:26:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 56,
+                  "nodeType": "ExpressionStatement",
+                  "src": "912:26:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 60,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 57,
+                      "name": "designer",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 30,
+                      "src": "948:8:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 58,
+                        "name": "amIDesigner",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 242,
+                        "src": "959:11:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
+                          "typeString": "function () view returns (bool)"
+                        }
+                      },
+                      "id": 59,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "959:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "src": "948:24:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 61,
+                  "nodeType": "ExpressionStatement",
+                  "src": "948:24:0"
+                }
+              ]
+            },
+            "documentation": "Function to check all roles for the caller\n @return array contining every role with its state as boolean",
+            "id": 63,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "whoAmI",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 18,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "573:2:0"
+            },
+            "returnParameters": {
+              "id": 31,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 20,
+                  "name": "consumer",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 63,
+                  "src": "605:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 19,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "605:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 22,
+                  "name": "retailer",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 63,
+                  "src": "628:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 21,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "628:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 24,
+                  "name": "distributor",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 63,
+                  "src": "651:16:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 23,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "651:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 26,
+                  "name": "manufacturer",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 63,
+                  "src": "677:17:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 25,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "677:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 28,
+                  "name": "regulator",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 63,
+                  "src": "704:14:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 27,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "704:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 30,
+                  "name": "designer",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 63,
+                  "src": "728:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 29,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "728:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "595:152:0"
+            },
+            "scope": 64,
+            "src": "558:421:0",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 65,
+        "src": "358:623:0"
+      }
+    ],
+    "src": "0:982:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Rolable.sol",
+    "exportedSymbols": {
+      "Rolable": [
+        64
+      ]
+    },
+    "id": 65,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "absolutePath": "/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Roles/Consumer.sol",
+        "file": "./Roles/Consumer.sol",
+        "id": 2,
+        "nodeType": "ImportDirective",
+        "scope": 65,
+        "sourceUnit": 178,
+        "src": "46:30:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Roles/Designer.sol",
+        "file": "./Roles/Designer.sol",
+        "id": 3,
+        "nodeType": "ImportDirective",
+        "scope": 65,
+        "sourceUnit": 305,
+        "src": "77:30:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Roles/Distributor.sol",
+        "file": "./Roles/Distributor.sol",
+        "id": 4,
+        "nodeType": "ImportDirective",
+        "scope": 65,
+        "sourceUnit": 418,
+        "src": "108:33:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Roles/Manufacturer.sol",
+        "file": "./Roles/Manufacturer.sol",
+        "id": 5,
+        "nodeType": "ImportDirective",
+        "scope": 65,
+        "sourceUnit": 531,
+        "src": "142:34:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Roles/Regulator.sol",
+        "file": "./Roles/Regulator.sol",
+        "id": 6,
+        "nodeType": "ImportDirective",
+        "scope": 65,
+        "sourceUnit": 647,
+        "src": "177:31:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/rajat/Desktop/ethereum/drug-supply-chain/contracts/AccessControl/Roles/Retailer.sol",
+        "file": "./Roles/Retailer.sol",
+        "id": 7,
+        "nodeType": "ImportDirective",
+        "scope": 65,
+        "sourceUnit": 760,
+        "src": "209:30:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 8,
+              "name": "Consumer",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 177,
+              "src": "378:8:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Consumer_$177",
+                "typeString": "contract Consumer"
+              }
+            },
+            "id": 9,
+            "nodeType": "InheritanceSpecifier",
+            "src": "378:8:0"
+          },
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 10,
+              "name": "Designer",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 304,
+              "src": "388:8:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Designer_$304",
+                "typeString": "contract Designer"
+              }
+            },
+            "id": 11,
+            "nodeType": "InheritanceSpecifier",
+            "src": "388:8:0"
+          },
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 12,
+              "name": "Distributor",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 417,
+              "src": "398:11:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Distributor_$417",
+                "typeString": "contract Distributor"
+              }
+            },
+            "id": 13,
+            "nodeType": "InheritanceSpecifier",
+            "src": "398:11:0"
+          },
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 14,
+              "name": "Regulator",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 646,
+              "src": "411:9:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Regulator_$646",
+                "typeString": "contract Regulator"
+              }
+            },
+            "id": 15,
+            "nodeType": "InheritanceSpecifier",
+            "src": "411:9:0"
+          },
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 16,
+              "name": "Retailer",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 759,
+              "src": "422:8:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Retailer_$759",
+                "typeString": "contract Retailer"
+              }
+            },
+            "id": 17,
+            "nodeType": "InheritanceSpecifier",
+            "src": "422:8:0"
+          }
+        ],
+        "contractDependencies": [
+          177,
+          304,
+          417,
+          530,
+          646,
+          759
+        ],
+        "contractKind": "contract",
+        "documentation": "@author Khalid F.Sh\n @title Role Ability Contract\n @dev contract for adopting all roles in access control",
+        "fullyImplemented": true,
+        "id": 64,
+        "linearizedBaseContracts": [
+          64,
+          759,
+          646,
+          417,
+          304,
+          530,
+          177
+        ],
+        "name": "Rolable",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 62,
+              "nodeType": "Block",
+              "src": "752:227:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 35,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 32,
+                      "name": "consumer",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 20,
+                      "src": "762:8:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 33,
+                        "name": "amIConsumer",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 126,
+                        "src": "773:11:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
+                          "typeString": "function () view returns (bool)"
+                        }
+                      },
+                      "id": 34,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "773:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "src": "762:24:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 36,
+                  "nodeType": "ExpressionStatement",
+                  "src": "762:24:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 40,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 37,
+                      "name": "retailer",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 22,
+                      "src": "796:8:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 38,
+                        "name": "amIRetailer",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 708,
+                        "src": "807:11:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
+                          "typeString": "function () view returns (bool)"
+                        }
+                      },
+                      "id": 39,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "807:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "src": "796:24:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 41,
+                  "nodeType": "ExpressionStatement",
+                  "src": "796:24:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 45,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 42,
+                      "name": "distributor",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 24,
+                      "src": "830:11:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 43,
+                        "name": "amIDistributor",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 366,
+                        "src": "844:14:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
+                          "typeString": "function () view returns (bool)"
+                        }
+                      },
+                      "id": 44,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "844:16:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "src": "830:30:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 46,
+                  "nodeType": "ExpressionStatement",
+                  "src": "830:30:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 50,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 47,
+                      "name": "manufacturer",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 26,
+                      "src": "870:12:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 48,
+                        "name": "amIManufacturer",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 479,
+                        "src": "885:15:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
+                          "typeString": "function () view returns (bool)"
+                        }
+                      },
+                      "id": 49,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "885:17:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "src": "870:32:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 51,
+                  "nodeType": "ExpressionStatement",
+                  "src": "870:32:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 55,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 52,
+                      "name": "regulator",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 28,
+                      "src": "912:9:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 53,
+                        "name": "amIRegulator",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 592,
+                        "src": "924:12:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
+                          "typeString": "function () view returns (bool)"
+                        }
+                      },
+                      "id": 54,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "924:14:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "src": "912:26:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 56,
+                  "nodeType": "ExpressionStatement",
+                  "src": "912:26:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 60,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 57,
+                      "name": "designer",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 30,
+                      "src": "948:8:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 58,
+                        "name": "amIDesigner",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 242,
+                        "src": "959:11:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
+                          "typeString": "function () view returns (bool)"
+                        }
+                      },
+                      "id": 59,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "959:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "src": "948:24:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 61,
+                  "nodeType": "ExpressionStatement",
+                  "src": "948:24:0"
+                }
+              ]
+            },
+            "documentation": "Function to check all roles for the caller\n @return array contining every role with its state as boolean",
+            "id": 63,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "whoAmI",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 18,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "573:2:0"
+            },
+            "returnParameters": {
+              "id": 31,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 20,
+                  "name": "consumer",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 63,
+                  "src": "605:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 19,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "605:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 22,
+                  "name": "retailer",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 63,
+                  "src": "628:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 21,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "628:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 24,
+                  "name": "distributor",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 63,
+                  "src": "651:16:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 23,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "651:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 26,
+                  "name": "manufacturer",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 63,
+                  "src": "677:17:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 25,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "677:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 28,
+                  "name": "regulator",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 63,
+                  "src": "704:14:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 27,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "704:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 30,
+                  "name": "designer",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 63,
+                  "src": "728:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 29,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "728:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "595:152:0"
+            },
+            "scope": 64,
+            "src": "558:421:0",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 65,
+        "src": "358:623:0"
+      }
+    ],
+    "src": "0:982:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.23",
+  "updatedAt": "2020-02-18T22:31:33.414Z",
+  "devdoc": {
+    "author": "Khalid F.Sh",
+    "details": "contract for adopting all roles in access control",
+    "methods": {
+      "addRegulator(address)": {
+        "params": {
+          "account": "address to be Added"
+        }
+      },
+      "amIConsumer()": {
+        "return": "boolean for caller address state in `_consumers` Role"
+      },
+      "amIDesigner()": {
+        "return": "boolean for caller address state in `_designers` Role"
+      },
+      "amIDistributor()": {
+        "return": "boolean for caller address state in `_distributors` Role"
+      },
+      "amIManufacturer()": {
+        "return": "boolean for caller address state in `_manufacturers` Role"
+      },
+      "amIRegulator()": {
+        "return": "boolean for caller address state in `_regulators` Role"
+      },
+      "amIRetailer()": {
+        "return": "boolean for caller address state in `_retailers` Role"
+      },
+      "isConsumer(address)": {
+        "params": {
+          "account": "address to be checked"
+        },
+        "return": "boolean for this address state in `_consumers` Role"
+      },
+      "isDesigner(address)": {
+        "params": {
+          "account": "address to be checked"
+        },
+        "return": "boolean for this address state in `_designers` Role"
+      },
+      "isDistributor(address)": {
+        "params": {
+          "account": "address to be checked"
+        },
+        "return": "boolean for this address state in `_distributors` Role"
+      },
+      "isManufacturer(address)": {
+        "params": {
+          "account": "address to be checked"
+        },
+        "return": "boolean for this address state in `_manufacturers` Role"
+      },
+      "isRegulator(address)": {
+        "params": {
+          "account": "address to be checked"
+        },
+        "return": "boolean for this address state in `_regulators` Role"
+      },
+      "isRetailer(address)": {
+        "params": {
+          "account": "address to be checked"
+        },
+        "return": "boolean for this address state in `_retailers` Role"
+      },
+      "whoAmI()": {
+        "return": "array contining every role with its state as boolean"
+      }
+    },
+    "title": "Role Ability Contract"
+  },
+  "userdoc": {
+    "methods": {
+      "addRegulator(address)": {
+        "notice": "Function to add account to regulator role`onlyRegulator` modifier  assignd to sure that the whole role groub regulated"
+      },
+      "amIConsumer()": {
+        "notice": "Function to check caller `msg.sender` if he has consumer role"
+      },
+      "amIDesigner()": {
+        "notice": "Function to check caller `msg.sender` if he has designer role"
+      },
+      "amIDistributor()": {
+        "notice": "Function to check caller `msg.sender` if he has distributor role"
+      },
+      "amIManufacturer()": {
+        "notice": "Function to check caller `msg.sender` if he has manufacturer role"
+      },
+      "amIRegulator()": {
+        "notice": "Function to check caller `msg.sender` if he has regulator role"
+      },
+      "amIRetailer()": {
+        "notice": "Function to check caller `msg.sender` if he has retailer role"
+      },
+      "assignMeAsConsumer()": {
+        "notice": "Function to assign caller `msg.sender` to consumer role"
+      },
+      "assignMeAsDesigner()": {
+        "notice": "Function to assign caller `msg.sender` to designer roledesigner allways should be a menufacturer, after checking isManufacturer add it if not"
+      },
+      "assignMeAsDistributor()": {
+        "notice": "Function to assign caller `msg.sender` to distributor role"
+      },
+      "assignMeAsManufacturer()": {
+        "notice": "Function to assign caller `msg.sender` to manufacturer role"
+      },
+      "assignMeAsRetailer()": {
+        "notice": "Function to assign caller `msg.sender` to retailer role"
+      },
+      "isConsumer(address)": {
+        "notice": "Function to check even he has consumer role or notuses'Roles' library's internal function `has()` to check, refer to library for more detail"
+      },
+      "isDesigner(address)": {
+        "notice": "Function to check even he has designer role or notuses'Roles' library's internal function `has()` to check, refer to library for more detail"
+      },
+      "isDistributor(address)": {
+        "notice": "Function to check even he has distributor role or notuses'Roles' library's internal function `has()` to check, refer to library for more detail"
+      },
+      "isManufacturer(address)": {
+        "notice": "Function to check even he has manufacturer role or notuses'Roles' library's internal function `has()` to check, refer to library for more detail"
+      },
+      "isRegulator(address)": {
+        "notice": "Function to check even he has regulator role or notuses'Roles' library's internal function `has()` to check, refer to library for more detail"
+      },
+      "isRetailer(address)": {
+        "notice": "Function to check even he has retailer role or notuses'Roles' library's internal function `has()` to check, refer to library for more detail"
+      },
+      "renounceMeFromConsumer()": {
+        "notice": "Function to renounce caller `msg.sender` from consumer role"
+      },
+      "renounceMeFromDesigner()": {
+        "notice": "Function to renounce caller `msg.sender` from designer role"
+      },
+      "renounceMeFromDistributor()": {
+        "notice": "Function to renounce caller `msg.sender` from distributor role"
+      },
+      "renounceMeFromManufacturer()": {
+        "notice": "Function to renounce caller `msg.sender` from manufacturer role"
+      },
+      "renounceMeFromRegulator()": {
+        "notice": "Function to renounce caller `msg.sender` from regulator role"
+      },
+      "renounceMeFromRetailer()": {
+        "notice": "Function to renounce caller `msg.sender` from retailer role"
+      },
+      "whoAmI()": {
+        "notice": "Function to check all roles for the caller"
+      }
+    }
+  }
+}
